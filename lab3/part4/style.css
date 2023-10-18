@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
-    display: grid; /* to set the images in a grid*/
+    display: flex; /* to split the content on the page , took a while to figure out*/
     grid-template-columns: 3fr 1 fr;
     gap: 20px;
   }
@@ -60,4 +60,18 @@ body {
       width: 200px;
       float: left;
       margin: 0 20px 20px 0;
+  }
+
+  aside {
+    float: right;
+    width: 30%;
+    padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  
+  }
+
+  article {
+    float: left;
+    width: 60%;
   }
